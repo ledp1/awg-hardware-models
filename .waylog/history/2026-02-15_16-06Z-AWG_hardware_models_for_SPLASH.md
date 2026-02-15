@@ -76,3 +76,264 @@ Create folder 'rover_wheels' with file 'stress_analysis.py' inside. Add this cod
 Creating the `rover_wheels` folder and adding `stress_analysis.py`. Defining symbols so expressions are valid (e.g. `E`, `I`, `L`, `w`, `t` for `sigma_beam`).
 
 ---
+
+
+**User**
+
+Commit changes with message "Initial models for SPLASH adoption" and push to GitHub.
+
+---
+
+
+**Cursor**
+
+Checking git status, then committing and pushing.
+
+Initializing the repo, committing, and attempting to push.
+
+---
+
+
+**User**
+
+Push local repo to GitHub: Create remote origin at https://github.com/ledp1/awg-hardware-models.git if not exists, then git push -u origin main. Then, refine README.md to add: "Updated per Kylee Brahma's Sep 2025 SPLASH presentation—models support 120+ instruments with TRL 8-9 focus." In centrifuges/stress_analysis.py, add comment: "# Aligns with BioServe heritage (1000 RPM max)". Commit as "Refine for SPLASH manuscript".
+
+---
+
+
+**Cursor**
+
+Applying edits, then configuring the remote and pushing.
+
+Summary of what’s done:
+
+**1. Remote**
+- Set `origin` to `https://github.com/ledp1/awg-hardware-models.git` (it wasn’t set before).
+
+**2. README.md**
+- Added under Highlights:  
+  *“Updated per Kylee Brahma's Sep 2025 SPLASH presentation—models support 120+ instruments with TRL 8-9 focus.”*
+
+**3. centrifuges/stress_analysis.py**
+- Added comment:  
+  *“# Aligns with BioServe heritage (1000 RPM max).”*
+
+**4. Commit**
+- Committed with message: **“Refine for SPLASH manuscript”** (2 files changed).
+
+**5. Push**
+- **Push failed**: GitHub reports “Repository not found” for `https://github.com/ledp1/awg-hardware-models.git`. That usually means the repo doesn’t exist yet or your account doesn’t have access.
+
+**What you need to do**
+1. Create the repo on GitHub: go to [github.com/new](https://github.com/new), name it `awg-hardware-models`, and leave “Add a README” unchecked.
+2. Push from your machine:
+   ```bash
+   cd /Users/myhomefolder/my-development/awg-hardware-models
+   git push -u origin main
+   ```
+
+After the repo exists (and you’re logged in with access), that push will upload both the initial commit and the “Refine for SPLASH manuscript” commit.
+
+---
+
+
+**User**
+
+Create remote origin for this repo at https://github.com/ledp1/awg-hardware-models.git if not exists, then git push -u origin main. Commit message if needed: "Initial push for SPLASH models". Confirm success in terminal.
+
+---
+
+
+**Cursor**
+
+Origin exists. Pushing to origin main.
+
+Confirming remote setup and reporting push result:
+
+**Terminal confirmation**
+
+- **Remote origin:** Set to `https://github.com/ledp1/awg-hardware-models.git`.
+- **Push:** Failed with **"Repository not found"** (exit code 128).
+
+So the remote is correct, but GitHub is rejecting the push because either:
+
+1. The repo `https://github.com/ledp1/awg-hardware-models` does not exist yet, or  
+2. Your account doesn’t have access (wrong account or private repo).
+
+**What to do**
+
+1. Create the repo: [https://github.com/new](https://github.com/new) → name it `awg-hardware-models`, leave “Add a README” **unchecked**.
+2. Push again:
+   ```bash
+   cd /Users/myhomefolder/my-development/awg-hardware-models
+   git push -u origin main
+   ```
+
+No extra commit was made; your last commit is still **"Refine for SPLASH manuscript"**. Use **"Initial push for SPLASH models"** only if you add a new commit before pushing (e.g. after creating the repo and pushing the first time).
+
+---
+
+
+**User**
+
+First, create the repo on GitHub: Go to github.com/new, name "awg-hardware-models", public, no README/.gitignore/license, create.
+
+Then, in Cursor terminal: git remote add origin https://github.com/ledp1/awg-hardware-models.git && git push -u origin main
+
+Confirm success. If error, reply with output,
+
+---
+
+
+**Cursor**
+
+We can't create the GitHub repo for you — open https://github.com/new, set name to `awg-hardware-models`, choose Public, leave README/.gitignore/license unchecked, and click Create repository. Running the git commands now:
+
+**Result: push failed**
+
+**Terminal output:**
+```
+remote: Repository not found.
+fatal: repository 'https://github.com/ledp1/awg-hardware-models.git/' not found
+```
+
+So `git remote add origin ...` ran (origin is set), but `git push -u origin main` failed because GitHub says the repository doesn’t exist.
+
+**Next steps:**
+
+1. **Create the repo on GitHub** (if you haven’t yet):
+   - Go to **https://github.com/new**
+   - Repository name: **awg-hardware-models**
+   - Visibility: **Public**
+   - Leave **“Add a README file”**, **“.gitignore”**, and **“License”** unchecked
+   - Click **Create repository**
+
+2. **Push again** in your project folder:
+   ```bash
+   git push -u origin main
+   ```
+   (No need to add the remote again; it’s already set.)
+
+3. If it still fails, check that you’re signed in as **ledp1** (or the owner of that repo) in the terminal, e.g.:
+   ```bash
+   gh auth status
+   ```
+   or use the GitHub CLI / Git credential manager to log in.
+
+---
+
+
+**User**
+
+Create GitHub repo at https://github.com/new: Name "awg-hardware-models", public, no README/.gitignore/license. Then, in terminal: git remote set-url origin https://github.com/ledp1/awg-hardware-models.git && git push -u origin main. Confirm success.
+
+---
+
+
+**Cursor**
+
+We can't create the repo on GitHub — that requires signing in at https://github.com/new and creating it in your browser. Run the git commands now:
+
+**Result: not successful**
+
+**Terminal output:**
+```text
+remote: Repository not found.
+fatal: repository 'https://github.com/ledp1/awg-hardware-models.git/' not found
+```
+
+So:
+- `git remote set-url origin https://github.com/ledp1/awg-hardware-models.git` ran (origin URL is set).
+- `git push -u origin main` failed because GitHub reports that the repository does not exist.
+
+**You need to create the repo first** (I can’t do that from here):
+
+1. Open **https://github.com/new** in your browser (and sign in as **ledp1** if needed).
+2. Set **Repository name** to **awg-hardware-models**.
+3. Choose **Public**.
+4. Leave **Add a README file**, **.gitignore**, and **License** unchecked.
+5. Click **Create repository**.
+
+Then in your project folder run:
+```bash
+git push -u origin main
+```
+and say if you get any new error output.
+
+---
+
+
+**User**
+
+```
+Create the repo on GitHub first: Go to github.com/new, name "awg-hardware-models", public, no README/.gitignore/license, create.
+
+Then, in terminal: git push -u origin main
+
+If auth error, run gh auth login. Confirm push success.
+```
+
+---
+
+
+**User**
+
+Create the repo on GitHub first: Go to github.com/new, name "awg-hardware-models", public, no README/.gitignore/license, create.
+
+Then, in terminal: git push -u origin main
+
+If auth error, run gh auth login. Confirm push success.
+
+---
+
+
+**Cursor**
+
+We can't create the repo on GitHub — open https://github.com/new in your browser, name it `awg-hardware-models`, set to Public, leave README/.gitignore/license unchecked, and click Create. Pushing now:
+
+Push failed with "Repository not found." Checking GitHub auth status:
+
+---
+
+
+**User**
+
+luisdepombo is my x handle not my github
+
+---
+
+
+**Cursor**
+
+So **ledp1** is your GitHub account and **@luisdepombo** is only your X handle.
+
+Right now `gh auth status` shows you’re logged in as **luisdepombo** on GitHub. To push to **ledp1/awg-hardware-models**, Git needs to use the **ledp1** account.
+
+**Do this:**
+
+1. **Log in as ledp1** (in your project folder):
+   ```bash
+   gh auth login
+   ```
+   - Choose **GitHub.com**
+   - Prefer **HTTPS**
+   - Log in with the **ledp1** account (browser or token)
+
+2. **Create the repo** (if it doesn’t exist yet):  
+   https://github.com/new → name: **awg-hardware-models**, Public, no README/.gitignore/license → Create.
+
+3. **Push:**
+   ```bash
+   git push -u origin main
+   ```
+
+Your remote is already `https://github.com/ledp1/awg-hardware-models.git`, so no need to change it. After you’re logged in as **ledp1** and the repo exists, the push should succeed.
+
+---
+
+
+**User**
+
+push all
+
+---
