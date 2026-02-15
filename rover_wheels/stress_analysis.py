@@ -14,3 +14,4 @@ load_val = F_gravity.subs({m_wheel: m_val, g_lunar: g_val})
 print(f"Lunar load: {load_val:.2f} N")
 
 # Wire dia ~0.0005m for tensile stress.
+

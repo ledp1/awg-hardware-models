@@ -16,3 +16,4 @@ print(f"Hoop stress: {stress_val} Pa (~{stress_val/1e6:.2f} MPa)")
 
 # For BioServe: Lower RPM (105 rad/s), adjust omega_val.
 # Aligns with BioServe heritage (1000 RPM max).
+

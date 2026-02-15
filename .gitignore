@@ -1,2 +1,1 @@
-# Cursor/IDE session and waylog (avoids noisy SCM)
-.waylog/
+# Add project-specific ignores below (e.g. __pycache__/, .env)
