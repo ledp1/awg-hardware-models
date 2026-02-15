@@ -1,3 +1,4 @@
+# SPLASH adopt-an-instrument: centrifuge hoop stress (SymPy)
 import sympy as sp
 
 m, r, omega = sp.symbols('m r omega')

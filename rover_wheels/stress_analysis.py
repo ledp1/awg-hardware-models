@@ -1,3 +1,4 @@
+# SPLASH adopt-an-instrument: rover wheel load under 1/6g (SymPy)
 import sympy as sp
 
 g_lunar, m_wheel, F_gravity = sp.symbols('g_lunar m_wheel F_gravity')
