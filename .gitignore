@@ -1,1 +1,2 @@
 # Add project-specific ignores below (e.g. __pycache__/, .env)
+.venv/
