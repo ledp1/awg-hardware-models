@@ -21,7 +21,7 @@ Structural integrity models for **Hardware AWG adopt-an-instrument**:
 
 ## Repo structure
 
-- **`.waylog/`** — Session context and history for this project; **included in the repo on purpose** (not local-only). Safe for tools and humans to read for background.
+- **`.waylog/`** — Session context and history; **included in the repo on purpose** (not local-only). If a tool says ".waylog does not exist (404)", it may be skipping dot-paths: the folder is at [tree/main/.waylog](https://github.com/ledp1/awg-hardware-models/tree/main/.waylog). See **[docs/session-context.md](docs/session-context.md)** for working URLs and a short summary.
 
 ## Contact
 
