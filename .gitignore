@@ -1,0 +1,2 @@
+# Cursor/IDE session and waylog (avoids noisy SCM)
+.waylog/
