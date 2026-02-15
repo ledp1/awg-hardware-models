@@ -10,6 +10,7 @@ Structural integrity models for **Hardware AWG adopt-an-instrument**:
 - **Centrifuges** — stress analysis at **12,100g** (NanoRacks).
 - **Rover wheels** — load and structural response under **1/6g** lunar gravity.
 - Aligns with **SPLASH V1** (Kylee Brahma, Sep 2025 presentation) and subgroup sheet.
+- Updated per Kylee Brahma's Sep 2025 SPLASH presentation—models support 120+ instruments with TRL 8-9 focus.
 
 ## Models
 
