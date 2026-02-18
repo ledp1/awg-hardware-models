@@ -3,6 +3,7 @@
 Structural integrity models for **Hardware AWG adopt-an-instrument**:
 
 - **BioServe MiniSpin (current ISS centrifuge) + rover wheels models**
+- Rhodium Variable Gravity Simulator (current ISS, variable g for biomanufacturing)
 
 ## Highlights
 
