@@ -1,4 +1,4 @@
-# AWG Hardware Models for SPLASH
+# AWG Hardware Models for SPLASH (BioServe MiniSpin + BioLab + CBEF + Rhodium VGS + lunar rover wheels)
 
 Structural integrity models for **Hardware AWG adopt-an-instrument**:
 
