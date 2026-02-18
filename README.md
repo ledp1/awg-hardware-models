@@ -3,6 +3,7 @@
 Structural integrity models for **Hardware AWG adopt-an-instrument**:
 
 - **Centrifuges**
+  - **Active ISS centrifuges:** BioServe MiniSpin, Rhodium VGS
   - BioServe MiniSpin (current ISS)
   - BioLab (ESA) on ISS Columbus
   - JAXA CBEF on ISS Kibo
