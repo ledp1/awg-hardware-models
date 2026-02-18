@@ -14,4 +14,4 @@ rho_val = 2700
 stress_val = sigma_hoop.subs({r: r_val, omega: omega_val, rho: rho_val})
 print(f"Hoop stress: {stress_val} Pa (~{stress_val/1e6:.2f} MPa)")
 
-# JAXA CBEF centrifuge on ISS Kibo: max ~1g variable
+# JAXA CBEF on ISS Kibo

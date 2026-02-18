@@ -14,4 +14,4 @@ rho_val = 2700
 stress_val = sigma_hoop.subs({r: r_val, omega: omega_val, rho: rho_val})
 print(f"Hoop stress: {stress_val} Pa (~{stress_val/1e6:.2f} MPa)")
 
-# BioLab (ESA) centrifuges on ISS Columbus: max 2000 rpm / ~2g
+# BioLab (ESA) on ISS Columbus
