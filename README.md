@@ -2,8 +2,7 @@
 
 Structural integrity models for **Hardware AWG adopt-an-instrument**:
 
-- **Centrifuges** — BioServe / NanoRacks
-- **Lunar rover wheels**
+- **BioServe MiniSpin (current ISS centrifuge) + rover wheels models**
 
 ## Highlights
 

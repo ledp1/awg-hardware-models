@@ -14,6 +14,5 @@ rho_val = 2700
 stress_val = sigma_hoop.subs({r: r_val, omega: omega_val, rho: rho_val})
 print(f"Hoop stress: {stress_val} Pa (~{stress_val/1e6:.2f} MPa)")
 
-# For BioServe: Lower RPM (105 rad/s), adjust omega_val.
-# Aligns with BioServe heritage (1000 RPM max).
+# BioServe MiniSpin (current ISS): 800-13,400 RPM (100-12,100 g)
 
