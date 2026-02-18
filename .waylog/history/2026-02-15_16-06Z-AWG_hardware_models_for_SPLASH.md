@@ -502,3 +502,92 @@ it seemeed to work. so we can remove the folders .vscode and .cursorindexingigno
 Removed `.cursorindexingignore`. Left `.vscode` in place so the venv stays the default interpreter and the “1” doesn’t come back.
 
 ---
+
+
+**User**
+
+it's pushed?
+
+---
+
+
+**Cursor**
+
+Not pushed. We have uncommitted changes:
+- Deleted: `.cursorindexingignore`
+- Modified: `.gitignore` (`.venv/` added), `.waylog/...`
+- Untracked: `.vscode/`, `requirements.txt`
+
+Committing and pushing now.
+
+Yes. Everything is committed and pushed to `origin/main`:
+
+- **Commit:** `32f5694` — "Add venv support: requirements.txt, .vscode interpreter; remove .cursorindexingignore; .gitignore .venv"
+- **Pushed to:** https://github.com/ledp1/awg-hardware-models
+
+---
+
+
+**User**
+
+my supergrok looked at https://github.com/ledp1/awg-hardware-models  and said "Can't access .waylog—it's local to Cursor (chat history file)"
+
+---
+
+
+**Cursor**
+
+Confirming .waylog is on GitHub: we restored it and pushed it (see the repo's [.waylog/history](https://github.com/ledp1/awg-hardware-models/tree/main/.waylog/history)). Supergrok is likely filtering out `.waylog` because it's often local Cursor chat. Adding a short README note so tools and readers know `.waylog` is intentional project context:
+
+---
+
+
+**User**
+
+push
+
+---
+
+
+**Cursor**
+
+Push completed.
+
+- **Commit:** `77d23b6` — "README: document .waylog as intentional repo context"
+- **Pushed to:** origin/main
+
+`.waylog/history/...` is still modified locally and was not included in this push. Say if you want that committed and pushed too.
+
+---
+
+
+**User**
+
+supergrok says ".waylog: Does not exist in repo (404)."
+
+---
+
+
+**Cursor**
+
+Checking what's in the repo and on the remote:
+
+Confirming `.waylog` exists on GitHub (API lists it). Checking whether the GitHub web URL for the folder works:
+
+Confirming `.waylog` exists on GitHub (API and https://github.com/ledp1/awg-hardware-models/tree/main/.waylog work). Supergrok may be requesting a wrong URL (e.g. `blob` instead of `tree`) or skipping dot-prefixed paths. Adding a visible `docs/` path that duplicates the session context so Supergrok can find it:
+
+---
+
+
+**User**
+
+supergrok said this
+
+---
+
+
+**Cursor**
+
+Verifying what's on GitHub — Supergrok reported two issues:
+
+---
