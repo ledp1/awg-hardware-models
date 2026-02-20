@@ -18,7 +18,7 @@
 | CBEF (JAXA) | [splash_entries/CBEF.md](splash_entries/CBEF.md) |
 | Rhodium VGS | [splash_entries/Rhodium_VGS.md](splash_entries/Rhodium_VGS.md) |
 
-Structural integrity models for **Hardware AWG adopt-an-instrument**. Includes full SPLASH-compatible metadata tables + structural models.
+Structural integrity models for **Hardware AWG adopt-an-instrument**. Includes full SPLASH-compatible metadata tables + structural models. This repo contains complete SPLASH-ready entry templates + structural models for all 4 active ISS centrifuges.
 
 - **Centrifuges**
   - **Active ISS centrifuges:** BioServe MiniSpin, Rhodium VGS
