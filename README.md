@@ -4,10 +4,10 @@
 
 | Centrifuge | SPLASH entry |
 |------------|--------------|
-| BioServe MiniSpin | [centrifuges/bio_serve_minispin/splash_entry.md](centrifuges/bio_serve_minispin/splash_entry.md) |
-| BioLab (ESA) | [centrifuges/biolab/splash_entry.md](centrifuges/biolab/splash_entry.md) |
-| CBEF (JAXA) | [centrifuges/cbef/splash_entry.md](centrifuges/cbef/splash_entry.md) |
-| Rhodium VGS | [centrifuges/rhodium_vgs/splash_entry.md](centrifuges/rhodium_vgs/splash_entry.md) |
+| BioServe MiniSpin | [centrifuges/bio_serve_minispin/SPLASH_entry.md](centrifuges/bio_serve_minispin/SPLASH_entry.md) |
+| BioLab (ESA) | [centrifuges/biolab/SPLASH_entry.md](centrifuges/biolab/SPLASH_entry.md) |
+| CBEF (JAXA) | [centrifuges/cbef/SPLASH_entry.md](centrifuges/cbef/SPLASH_entry.md) |
+| Rhodium VGS | [centrifuges/rhodium_vgs/SPLASH_entry.md](centrifuges/rhodium_vgs/SPLASH_entry.md) |
 
 ## SPLASH entry templates (ISS centrifuges)
 
