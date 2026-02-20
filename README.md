@@ -1,5 +1,7 @@
 # AWG Hardware Models for SPLASH (BioServe MiniSpin + BioLab + CBEF + Rhodium VGS + lunar rover wheels)
 
+**To create or update SPLASH entries** for these centrifuges, see **[docs/SPLASH-entries-guide.md](docs/SPLASH-entries-guide.md)** — it describes where the data lives and how to add or edit entries.
+
 ## Ready for SPLASH Import
 
 | Centrifuge | SPLASH entry |
