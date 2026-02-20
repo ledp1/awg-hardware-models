@@ -1,5 +1,14 @@
 # AWG Hardware Models for SPLASH (BioServe MiniSpin + BioLab + CBEF + Rhodium VGS + lunar rover wheels)
 
+## SPLASH entry templates (ISS centrifuges)
+
+| Centrifuge | Template |
+|------------|----------|
+| BioServe MiniSpin | [splash_entries/BioServe_MiniSpin.md](splash_entries/BioServe_MiniSpin.md) |
+| BioLab (ESA) | [splash_entries/BioLab.md](splash_entries/BioLab.md) |
+| CBEF (JAXA) | [splash_entries/CBEF.md](splash_entries/CBEF.md) |
+| Rhodium VGS | [splash_entries/Rhodium_VGS.md](splash_entries/Rhodium_VGS.md) |
+
 Structural integrity models for **Hardware AWG adopt-an-instrument**:
 
 - **Centrifuges**

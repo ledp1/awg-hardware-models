@@ -1,33 +1,27 @@
-# BioServe MiniSpin (Current ISS Centrifuge)
+# BioServe MiniSpin - SPLASH Entry Template
 
-**General**  
-Operations: CREW TIME REQUIRED + SAMPLE RETURN REQUIRED  
-Category: Experiment Hosting Facilities with Centrifuges  
-Operator/Vendor: BioServe Space Technologies / NASA KSC  
-Status: Active  
-Flight Heritage: Multiple ISS expeditions (glovebox use)  
-Year of First Launch: 2010s (modified Eppendorf MiniSpin)  
+## General
+- Operations: Crew time required + sample return required
+- Category: Experiment Hosting Facilities with Centrifuges
+- Operator/Vendor: BioServe Space Technologies / NASA KSC
+- Status: Active
+- Flight Heritage: Multiple ISS expeditions (glovebox use); 2010s (modified Eppendorf MiniSpin)
 
-**Specifications**  
-Mass: ~3.7 kg (without rotor)  
-Size: 22.5 cm W × 24 cm D × 12 cm H  
-Payload Volume Required: Portable (glovebox/MWA/LSG)  
-Power (Average): 120V AC, ~70-85 W  
-Hardware Operational Temperature Range: Ambient ISS  
-Interface Definitions: 120V AC power, manual front panel control  
-Radiation Sensitivity: Standard ISS  
-Heat Sync Required: No  
+## Specifications
+- Mass: ~3.7 kg (without rotor)
+- Size: 22.5 cm W × 24 cm D × 12 cm H
+- Power: 120 V AC, ~70–85 W
+- Centrifuge Performance: 100–12,100 g
+- Temperature Range: Ambient ISS (no active control)
 
-**Research**  
-Specimen Types Supported: Cells, microbes, small organisms, protein solutions  
-Specimen Size/Quantity: 12 × (0.2-2.0 ml) microcentrifuge tubes or 16 PCR tubes  
-Temperature Range at Sample: Ambient (no active control)  
-Experiment Duration: 15 s – 30 min per run  
-Centrifuge: Yes (100–12,100 g)  
-Imaging: No (external)  
+## Research
+- Supported Specimen Types: Cells, microbes, small organisms, protein solutions
+- Key Applications: Microcentrifuge runs (12 × 0.2–2.0 ml tubes or 16 PCR tubes); 15 s–30 min per run; glovebox/MWA/LSG compatible
 
-**Logistics**  
-Crew Handling Required: Yes (manual loading/operation)  
-Autonomy: No (manual)  
-Sample Return Required: Usually yes  
-Compatibility with On-Orbit Sample Processing: Yes (glovebox compatible)
+## Logistics
+- Crew Handling Required: Yes (manual loading/operation)
+- Autonomy: No (manual)
+- Sample Return Required: Usually yes
+
+## Structural Models
+Link: [../centrifuges/stress_analysis.py](../centrifuges/stress_analysis.py)
