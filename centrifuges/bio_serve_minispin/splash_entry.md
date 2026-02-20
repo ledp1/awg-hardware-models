@@ -6,6 +6,7 @@
 - **Operator/Vendor:** BioServe Space Technologies / NASA KSC
 - **Status:** Active
 - **Flight Heritage:** Multiple ISS expeditions (glovebox use); 2010s (modified Eppendorf MiniSpin)
+- **Year of First Launch:** 2010s
 
 ## Specifications
 - **Mass:** ~3.7 kg (without rotor)
@@ -35,4 +36,4 @@
 - **Compatibility with On-Orbit Sample Processing:** Yes (glovebox compatible)
 
 ## Structural Models
-- [stress_analysis.py](../stress_analysis.py)
+See [stress_analysis.py](../stress_analysis.py) for centrifugal force and hoop stress calculations (max g-load, etc.).

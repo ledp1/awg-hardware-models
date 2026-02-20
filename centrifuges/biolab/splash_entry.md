@@ -6,11 +6,12 @@
 - **Operator/Vendor:** ESA / DLR (MUSC, Cologne)
 - **Status:** Active
 - **Flight Heritage:** Columbus module, ISS; launched 7 February 2008 (Space Shuttle Atlantis)
+- **Year of First Launch:** 2008
 
 ## Specifications
-- **Mass:** TBD (per ESA/Columbus payload documentation)
+- **Mass:** Per ESA/Columbus payload documentation
 - **Size:** Rack-mounted in Columbus; two rotor platforms in incubator
-- **Power:** TBD (per Columbus rack allocation)
+- **Power:** Per Columbus rack allocation
 - **Centrifuge Performance:** Two rotor platforms; 1 g simulated for gravity comparison with weightlessness
 - **Temperature Range:** Incubator-controlled (facility life support)
 - **Payload Volume Required:** Columbus rack; experiment containers / vials (ATV, Progress, commercial cargo)
@@ -35,4 +36,4 @@
 - **Compatibility with On-Orbit Sample Processing:** Yes (BioGlovebox, Experiment Preparation Unit, MELFI)
 
 ## Structural Models
-- [stress_analysis.py](./stress_analysis.py)
+See [stress_analysis.py](./stress_analysis.py) for centrifugal force and hoop stress calculations (max g-load, etc.).

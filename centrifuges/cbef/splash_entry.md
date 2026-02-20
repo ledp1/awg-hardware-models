@@ -6,11 +6,12 @@
 - **Operator/Vendor:** JAXA / MHI (Mitsubishi Heavy Industries)
 - **Status:** Active
 - **Flight Heritage:** JEM Pressurized Module (Kibo), ISS; launched 2008 (Space Shuttle)
+- **Year of First Launch:** 2008
 
 ## Specifications
-- **Mass:** TBD (per JAXA/Kibo payload documentation)
+- **Mass:** Per JAXA/Kibo payload documentation
 - **Size:** Rack-mounted; incubator with µG and 1G compartments
-- **Power:** TBD (per JEM rack); canister: DC +5 V, +12 V, ±15 V
+- **Power:** Per JEM rack; canister: DC +5 V, +12 V, ±15 V
 - **Centrifuge Performance:** 0.1–2.0 G at 112.5 mm radius; 20–140 rpm (1 rpm steps)
 - **Temperature Range:** 15°C–40°C (±1°C distribution, 0.1°C steps)
 - **Payload Volume Required:** 6 medium canisters (µG) + 4 medium canisters (1G)
@@ -35,4 +36,4 @@
 - **Compatibility with On-Orbit Sample Processing:** Yes (Kibo PM, BEU standard canister interface)
 
 ## Structural Models
-- [stress_analysis.py](./stress_analysis.py)
+See [stress_analysis.py](./stress_analysis.py) for centrifugal force and hoop stress calculations (max g-load, etc.).
